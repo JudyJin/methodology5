@@ -1,0 +1,4 @@
+{
+    "dockerhub-id": "mileslab/methodology5",
+    "build-script": "source /home/jovyan/.cache/pypoetry/virtualenvs/torchts-d1O-6mGW-py3.8/bin/activate && python run.py test"
+}
