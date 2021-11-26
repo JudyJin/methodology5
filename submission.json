@@ -1,4 +1,4 @@
 {
     "dockerhub-id": "mileslab/methodology5",
-    "build-script": "source $(poetry env info --path)/bin/activate && python run.py test"
+    "build-script": "poetry install && poetry shell && pip install matplotlib && python run.py test"
 }
